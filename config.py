@@ -33,7 +33,7 @@ SESSION_STRING = "AQAiSttYZEfhOhUC19MdvfJ9M7_DcBjGoWA3aZaFBijEbpPXwVPbQcLnojNz7p
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
 ASSISTANT_NAME = "ssmusicassist"
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = "1008157909"
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 
 # API_ID = int(getenv("API_ID", ""))
