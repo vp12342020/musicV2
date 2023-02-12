@@ -26,15 +26,25 @@ admins = {}
 OLD_PMS = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
+API_ID = "9717749"
+API_HASH = "9736a4b1994124eeb304ed47fce1bd07"
+BOT_TOKEN = "6275219924:AAHMJb34ejMLb-lDj6LoAqEStMjmVpESO_Q"
+SESSION_STRING = "AQAiSttYZEfhOhUC19MdvfJ9M7_DcBjGoWA3aZaFBijEbpPXwVPbQcLnojNz7pOhR7N260HUkM0NHca2OuAS1X69XEE6i9VtgvoJQv_jfqIPHrsJnwyY9cGiLqshGERhe-DQJtNEJr0P4XdkIzTZf_gHUVYCr6Xa59T3ZOXd1N4kBm8eURzbJ55fKhdvsdkca5mZpCzriNnT_icr83kE3wEPeCK__pi8WHYhgsgY4P0w5ABSVSfc6T-McAd_MLgnagIjqUgpq0Wlj2423LUVX3FEkoZ2GGn4eD-ZzZT_x5xh_V9oVF2eRXeBHlwr3whLIPjbUAuotDMiTKIsp6cB00z4AAAAASp103UA"
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+ASSISTANT_NAME = "ssmusicassist"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+
+# API_ID = int(getenv("API_ID", ""))
+# API_HASH = getenv("API_HASH", "")
+# BOT_TOKEN = getenv("BOT_TOKEN", "")
+# SESSION_STRING = getenv("SESSION_STRING", "")
+# SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+# UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
+# ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+# SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+# REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
