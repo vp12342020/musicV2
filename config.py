@@ -43,7 +43,7 @@ REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 # SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
 # UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
 # ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-# SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+# SUDO_USERS = "1008157909"
 # REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
